@@ -7,3 +7,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.form {
+  width: 60vw;
+}
+
+.sidebar {
+  width: 40vw;
+}
