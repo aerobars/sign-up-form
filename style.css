@@ -24,3 +24,18 @@ body {
   background-color: rgba(18, 18, 18, 0.534);
   color: white;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+}
+
+label,
+input {
+  display: block;
+}
