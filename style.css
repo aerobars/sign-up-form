@@ -1,6 +1,6 @@
 * {
   outline: 1px solid red;
-}
+} 
 
 body {
   background-image: url(assets/leaves.avif);
@@ -30,7 +30,7 @@ body {
   flex-direction: column;
   background-color: aliceblue;
   box-shadow: 10px 5px 5px gray;
-  height: 30vh;
+  height: 31vh;
 }
 
 .form-row {
@@ -44,7 +44,8 @@ input {
   display: block;
 }
 
-.input-wrapper {
+.input-wrapper,
+.form-title {
   margin: 1rem;
 }
 
