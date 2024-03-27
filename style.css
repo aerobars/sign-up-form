@@ -1,8 +1,14 @@
-* {
+/* {
   outline: 1px solid red;
-} 
+} */
+
+@font-face {
+  font-family: fantasque;
+  src: url(assets/FantasquSansMono-Regular.woff);
+}
 
 body {
+  font-family: 'Fantasque', sans-serif;
   background-image: url(assets/leaves.avif);
   display: flex;
   margin: 0;
@@ -23,6 +29,8 @@ body {
   align-self: center;
   background-color: rgba(18, 18, 18, 0.534);
   color: white;
+  display: flex;
+  
 }
 
 .form {
