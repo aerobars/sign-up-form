@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Fantasque', sans-serif;
+  font-family: sans-serif;
   background-image: url(assets/leaves.avif);
   display: flex;
   margin: 0;
@@ -30,7 +30,7 @@ body {
   background-color: rgba(18, 18, 18, 0.534);
   color: white;
   display: flex;
-  
+  font-family: 'Fantasque';
 }
 
 .form {
@@ -39,12 +39,14 @@ body {
   background-color: rgb(235, 255, 235);
   box-shadow: 10px 5px 5px gray;
   height: 31vh;
+  min-height: 260px;
+  font-size: 1.2rem;
 }
 
 .form-row {
   display: flex;
   flex-direction: row;
- 
+  font-size: 0.8rem;
 }
 
 label,
@@ -63,4 +65,9 @@ button {
   padding: 10px 20px;
   border-radius: 10px;
   margin: 25px 1rem;
+}
+
+.login {
+  margin: 1% 1rem;
+  font-size: 0.75rem;
 }
