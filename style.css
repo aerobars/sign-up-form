@@ -52,6 +52,7 @@ body {
 label,
 input {
   display: block;
+  border-radius: 5px;
 }
 
 .input-wrapper,
@@ -70,4 +71,13 @@ button {
 .login {
   margin: 1% 1rem;
   font-size: 0.75rem;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:focus {
+border-color: skyblue;
+box-shadow: 5px;
 }
